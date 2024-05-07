@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class siswa;
@@ -34,4 +35,13 @@ void orang::setNama(string pNama)
 void siswa::setId(int pId)
 {
 	id = pId;
+}
+int main()
+{
+	orang joko;
+	joko.setNama("Joko Susilo");
+	siswa joko_siswa;
+	joko_siswa.setId(1);
+	joko_siswa.displayall(joko);
+	return 0;
 }
