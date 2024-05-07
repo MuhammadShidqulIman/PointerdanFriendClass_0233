@@ -5,6 +5,11 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer dan Friend clas", "Pointer dan Friend clas\Pointer dan Friend clas.vcxproj", "{43EBD814-26D5-4D78-BA76-265123145EAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D6F9A8B-3DFE-46A0-BE41-98C554178660}"
+	ProjectSection(SolutionItems) = preProject
+		pointer 2 = pointer 2
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
