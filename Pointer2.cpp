@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class mahasiswa 
@@ -24,5 +25,14 @@ int main()
 	mahasiswa* pMhs = &mhs;
 	pMhs->nim = 3: 
 	pMhs->shownim();
+	return 0;
+}
+int main()
+{
+	orang joko;
+	joko.setNama("Joko Susilo");
+	siswa joko_siswa;
+	joko_siswa.setId(1);
+	joko_siswa.displayall(joko);
 	return 0;
 }
